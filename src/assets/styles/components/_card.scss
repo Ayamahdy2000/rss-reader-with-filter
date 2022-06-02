@@ -1,0 +1,44 @@
+.card {
+    height: 200px;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 10px;
+
+
+
+    &__img {
+
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+    &__content {
+        position: absolute;
+        width: 100%;
+        bottom: 0px;
+        padding: 14px 20px 10px;
+        background-image: linear-gradient(to top, #000, transparent);
+
+
+
+
+    }
+
+    &__card-heading {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 18px;
+        color: #fff;
+        margin: 0;
+    }
+
+    &__card-date {
+        color: #818181;
+        margin: 0;
+        font-weight: 500;
+    }
+}
